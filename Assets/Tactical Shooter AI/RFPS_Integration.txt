@@ -1,0 +1,47 @@
+RFPS INTEGRATION BETA INSTRUCTIONS
+For RFPS 1.45
+TSAI 1.8.1
+
+RFPS CODE:  ADD THE FOLLOWING
+In WeaponBehaviour, line 2126, in the "HitObject" method
+
+if (hit.collider.gameObject.GetComponent<TacticalAI.HitBox>())
+{
+    hit.collider.gameObject.GetComponent<TacticalAI.HitBox>().Damage(damageAmt);
+    FPSPlayerComponent.UpdateHitTime();//used for hitmarker
+}
+
+
+In the RFPS ExplosiveObject.cs, line 104, in the "Detonate" method right before the switch statement
+
+if (hitCollider.gameObject.GetComponent<TacticalAI.HitBox>())                        
+{                             
+	hitCollider.gameObject.GetComponent<TacticalAI.HitBox>().Damage(explosionDamageAmt);                         
+}
+
+
+IN TACTICAL SHOOTER AI:
+UNCOMMENT the labelled sections in the
+BulletScript, line 77
+TargetScript, line 503
+ExplosionScript, line 52 
+
+
+THEN:
+
+Apply a TargetScript to your player's camera.
+Set the TargetScript's healthScriptHolder to your RFPSPlayer 
+Ensure that the AI's BULLET PREFABS have their BulletScript's layermask value set to include the layer the player is on
+Ensure that the AI Controller has it's layermask set to include the objects that make up your level
+Ensure that the Cover nodes have their layermasks set to include the objects that make up your level
+Ensure that the AI's EXPLOSION PREFABS have their layermasks set to include the objects that make up your level
+Ensure that the RFPS Obsruction layermask in the grenade explosions DO NOT include the agent's physics layers
+
+
+----
+
+For whatever reason, upon import, Unity may remove any animation called "run" from all of the RFPS animators which causes a chain reaction and basically causes the whole game to fall apart. 
+You'll need to manually replace these upon import.
+
+RFPS changes the default timescale to 0. Make it 1 or add an RFPS player to the scene to make it work.
+

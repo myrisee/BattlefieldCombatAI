@@ -1,0 +1,1046 @@
+fileFormatVersion: 2
+guid: d6483df6dc0fe6244af04d08ab5a7b9b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm_Soldier_Ctlsz
+    100002: //RootNode
+    100004: SChest
+    100006: SFoot.L
+    100008: SFoot.R
+    100010: SHand.L
+    100012: SHand.R
+    100014: SHips
+    100016: SIndex_Distal3.L
+    100018: SIndex_Distal3.R
+    100020: SIndex_Intermediate2.L
+    100022: SIndex_Intermediate2.R
+    100024: SIndex_Proximal1.L
+    100026: SIndex_Proximal1.R
+    100028: SLegToe1.L
+    100030: SLegToe1.R
+    100032: SLowerArm.L
+    100034: SLowerArm.R
+    100036: SLowerLeg.L
+    100038: SLowerLeg.R
+    100040: SMedius_Distal3.L
+    100042: SMedius_Distal3.R
+    100044: SMedius_Intermediate2.L
+    100046: SMedius_Intermediate2.R
+    100048: SMedius_Proximal1.L
+    100050: SMedius_Proximal1.R
+    100052: SNeck1
+    100054: SNeckHead
+    100056: Soldier4Gun
+    100058: Soldier4Gun.001
+    100060: Soldier5Gun
+    100062: Soldierz_clean
+    100064: SPinky_Distal3.L
+    100066: SPinky_Distal3.R
+    100068: SPinky_Intermediate2.L
+    100070: SPinky_Intermediate2.R
+    100072: SPinky_Proximal1.L
+    100074: SPinky_Proximal1.R
+    100076: SRing_Distal3.L
+    100078: SRing_Distal3.R
+    100080: SRing_Intermediate2.L
+    100082: SRing_Intermediate2.R
+    100084: SRing_Proximal1.L
+    100086: SRing_Proximal1.R
+    100088: SShoulder.L
+    100090: SShoulder.R
+    100092: SSpine
+    100094: SThumb_Distal3.L
+    100096: SThumb_Distal3.R
+    100098: SThumb_Intermediate2.L
+    100100: SThumb_Intermediate2.R
+    100102: SThumb_Proximal1.L
+    100104: SThumb_Proximal1.R
+    100106: SUpperArm.L
+    100108: SUpperArm.R
+    100110: SUpperLeg.L
+    100112: SUpperLeg.R
+    400000: Arm_Soldier_Ctlsz
+    400002: //RootNode
+    400004: SChest
+    400006: SFoot.L
+    400008: SFoot.R
+    400010: SHand.L
+    400012: SHand.R
+    400014: SHips
+    400016: SIndex_Distal3.L
+    400018: SIndex_Distal3.R
+    400020: SIndex_Intermediate2.L
+    400022: SIndex_Intermediate2.R
+    400024: SIndex_Proximal1.L
+    400026: SIndex_Proximal1.R
+    400028: SLegToe1.L
+    400030: SLegToe1.R
+    400032: SLowerArm.L
+    400034: SLowerArm.R
+    400036: SLowerLeg.L
+    400038: SLowerLeg.R
+    400040: SMedius_Distal3.L
+    400042: SMedius_Distal3.R
+    400044: SMedius_Intermediate2.L
+    400046: SMedius_Intermediate2.R
+    400048: SMedius_Proximal1.L
+    400050: SMedius_Proximal1.R
+    400052: SNeck1
+    400054: SNeckHead
+    400056: Soldier4Gun
+    400058: Soldier4Gun.001
+    400060: Soldier5Gun
+    400062: Soldierz_clean
+    400064: SPinky_Distal3.L
+    400066: SPinky_Distal3.R
+    400068: SPinky_Intermediate2.L
+    400070: SPinky_Intermediate2.R
+    400072: SPinky_Proximal1.L
+    400074: SPinky_Proximal1.R
+    400076: SRing_Distal3.L
+    400078: SRing_Distal3.R
+    400080: SRing_Intermediate2.L
+    400082: SRing_Intermediate2.R
+    400084: SRing_Proximal1.L
+    400086: SRing_Proximal1.R
+    400088: SShoulder.L
+    400090: SShoulder.R
+    400092: SSpine
+    400094: SThumb_Distal3.L
+    400096: SThumb_Distal3.R
+    400098: SThumb_Intermediate2.L
+    400100: SThumb_Intermediate2.R
+    400102: SThumb_Proximal1.L
+    400104: SThumb_Proximal1.R
+    400106: SUpperArm.L
+    400108: SUpperArm.R
+    400110: SUpperLeg.L
+    400112: SUpperLeg.R
+    2300000: Soldier4Gun
+    2300002: Soldier4Gun.001
+    2300004: Soldier5Gun
+    3300000: Soldier4Gun
+    3300002: Soldier4Gun.001
+    3300004: Soldier5Gun
+    4300000: Soldier5Gun
+    4300002: Soldier4Gun.001
+    4300004: Soldier4Gun
+    4300006: Soldierz_clean
+    7400000: Scene
+    9500000: //RootNode
+    13700000: Soldierz_clean
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: cfa18368451cd8142a56df21d8379fa7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      firstFrame: 191
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Soldier_Ctlsz
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SIndex_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SIndex_Proximal1.L/SIndex_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SIndex_Proximal1.L/SIndex_Intermediate2.L/SIndex_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SMedius_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SMedius_Proximal1.L/SMedius_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SMedius_Proximal1.L/SMedius_Intermediate2.L/SMedius_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SPinky_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SPinky_Proximal1.L/SPinky_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SPinky_Proximal1.L/SPinky_Intermediate2.L/SPinky_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SRing_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SRing_Proximal1.L/SRing_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SRing_Proximal1.L/SRing_Intermediate2.L/SRing_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SThumb_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SThumb_Proximal1.L/SThumb_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/SLowerArm.L/SHand.L/SThumb_Proximal1.L/SThumb_Intermediate2.L/SThumb_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SIndex_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SIndex_Proximal1.R/SIndex_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SIndex_Proximal1.R/SIndex_Intermediate2.R/SIndex_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SMedius_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SMedius_Proximal1.R/SMedius_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SMedius_Proximal1.R/SMedius_Intermediate2.R/SMedius_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SPinky_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SPinky_Proximal1.R/SPinky_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SPinky_Proximal1.R/SPinky_Intermediate2.R/SPinky_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SRing_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SRing_Proximal1.R/SRing_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SRing_Proximal1.R/SRing_Intermediate2.R/SRing_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SThumb_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SThumb_Proximal1.R/SThumb_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SLowerArm.R/SHand.R/SThumb_Proximal1.R/SThumb_Intermediate2.R/SThumb_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L/SLowerLeg.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L/SLowerLeg.L/SFoot.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L/SLowerLeg.L/SFoot.L/SLegToe1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R/SLowerLeg.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R/SLowerLeg.R/SFoot.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R/SLowerLeg.R/SFoot.R/SLegToe1.R
+        weight: 1
+      - path: Soldier4Gun
+        weight: 0
+      - path: Soldier4Gun.001
+        weight: 0
+      - path: Soldier5Gun
+        weight: 0
+      - path: Soldierz_clean
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 191
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: SHips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SUpperLeg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SUpperLeg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLowerLeg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLowerLeg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SFoot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SFoot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SSpine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SChest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SNeck1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SNeckHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SShoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SUpperArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SUpperArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLowerArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLowerArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SHand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SHand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLegToe1.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLegToe1.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Proximal1.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Intermediate2.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Distal3.L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Proximal1.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Intermediate2.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Distal3.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Proximal1.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Intermediate2.L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Distal3.L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Proximal1.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Intermediate2.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Distal3.L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Proximal1.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Intermediate2.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Distal3.L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Proximal1.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Intermediate2.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Distal3.R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Proximal1.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Intermediate2.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Distal3.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Proximal1.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Intermediate2.R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Distal3.R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Proximal1.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Intermediate2.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Distal3.R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Proximal1.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Intermediate2.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Distal3.R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SShoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Dodge_L(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Soldier_Ctlsz
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SHips
+      parentName: 
+      position: {x: 1.4901161e-10, y: -0.00024155057, z: 0.01053339}
+      rotation: {x: 0.7071095, y: -0.000000087463256, z: -0.000000077172864, w: 0.707104}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+    - name: SSpine
+      parentName: 
+      position: {x: -1.3969838e-11, y: 0.0022439163, z: -1.8626451e-11}
+      rotation: {x: 0.000000037252903, y: -0.00000006984919, z: -0.0000000036374355,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+    - name: SChest
+      parentName: 
+      position: {x: -1.0244548e-10, y: 0.0022439184, z: -5.3551046e-11}
+      rotation: {x: 0.00010403689, y: 0.00000020955073, z: 0.00000002835281, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: SNeck1
+      parentName: 
+      position: {x: 7.4505804e-11, y: 0.0028598781, z: -2.9802322e-10}
+      rotation: {x: -0.00000034784173, y: 0.0000003492742, z: 0.00000013089192, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: SNeckHead
+      parentName: 
+      position: {x: 5.587935e-10, y: 0.0007988608, z: 6.3329936e-10}
+      rotation: {x: -0.0001076664, y: -0.000000023285894, z: -0.000000026918531, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: SShoulder.L
+      parentName: 
+      position: {x: -0.0001944005, y: 0.0019808242, z: -0.0000000018626451}
+      rotation: {x: 0.587739, y: -0.46894568, z: -0.46894634, w: -0.46340284}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: SUpperArm.L
+      parentName: 
+      position: {x: -1.3038516e-10, y: 0.001715045, z: 8.457573e-10}
+      rotation: {x: 0.04448314, y: 0.018747121, z: 0.027274102, w: 0.99846184}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999964}
+    - name: SLowerArm.L
+      parentName: 
+      position: {x: 0.000000007372364, y: 0.0029578598, z: -0.00000004551839}
+      rotation: {x: 0.004534286, y: 0.0014672604, z: 0.024919799, w: 0.99967813}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: SHand.L
+      parentName: 
+      position: {x: 0.00000000782115, y: 0.0029595592, z: -0.0000000531727}
+      rotation: {x: -0.021126715, y: 0.114884906, z: 0.10579329, w: -0.9875034}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999999}
+    - name: SIndex_Proximal1.L
+      parentName: 
+      position: {x: -0.00044389835, y: 0.0010000499, z: -0.0000019942597}
+      rotation: {x: 0.01809725, y: -0.7034983, z: 0.076681525, w: 0.70631623}
+      scale: {x: 1, y: 1.0000004, z: 0.9999997}
+    - name: SIndex_Intermediate2.L
+      parentName: 
+      position: {x: 0.0000000024214386, y: 0.0005752587, z: -7.45058e-10}
+      rotation: {x: -0.00006881073, y: 0.017869232, z: 0.033137593, w: 0.99929106}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: SIndex_Distal3.L
+      parentName: 
+      position: {x: -4.4703483e-10, y: 0.0002751969, z: 1.4901161e-10}
+      rotation: {x: -0.0009707938, y: -0.008246143, z: 0.08424711, w: 0.99641037}
+      scale: {x: 0.9999996, y: 0.99999934, z: 0.99999994}
+    - name: SMedius_Proximal1.L
+      parentName: 
+      position: {x: -0.000105429885, y: 0.0010742694, z: 0.00006891305}
+      rotation: {x: -0.00090799737, y: -0.6472177, z: 0.057196796, w: 0.76015586}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.99999994}
+    - name: SMedius_Intermediate2.L
+      parentName: 
+      position: {x: 0.0000000012293457, y: 0.00067459524, z: 0}
+      rotation: {x: -0.006772425, y: 0.035910614, z: 0.035198633, w: 0.99871206}
+      scale: {x: 0.9999997, y: 1, z: 0.99999976}
+    - name: SMedius_Distal3.L
+      parentName: 
+      position: {x: 8.9406965e-10, y: 0.00030468742, z: 0.0000000020861626}
+      rotation: {x: 0.0035697068, y: -0.013659505, z: -0.016523138, w: 0.99976385}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1.0000001}
+    - name: SPinky_Proximal1.L
+      parentName: 
+      position: {x: 0.00046590803, y: 0.0010220733, z: 0.000011713896}
+      rotation: {x: -0.0033040599, y: -0.57653207, z: 0.03612769, w: 0.81626874}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: SPinky_Intermediate2.L
+      parentName: 
+      position: {x: -9.685754e-10, y: 0.00038203283, z: 0.0000000010151416}
+      rotation: {x: -0.0054470357, y: 0.052826088, z: 0.038232822, w: 0.99785674}
+      scale: {x: 1, y: 0.9999995, z: 1}
+    - name: SPinky_Distal3.L
+      parentName: 
+      position: {x: 6.705522e-10, y: 0.00020147071, z: 4.4703483e-10}
+      rotation: {x: -0.027289487, y: -0.0026531813, z: 0.14036228, w: 0.9897206}
+      scale: {x: 1, y: 1.0000011, z: 0.9999998}
+    - name: SRing_Proximal1.L
+      parentName: 
+      position: {x: 0.00020003854, y: 0.0011159128, z: 0.00006382717}
+      rotation: {x: -0.003925902, y: -0.61515325, z: 0.047922913, w: 0.78694}
+      scale: {x: 1, y: 0.9999996, z: 0.99999976}
+    - name: SRing_Intermediate2.L
+      parentName: 
+      position: {x: 7.45058e-10, y: 0.0005395365, z: 2.9802322e-10}
+      rotation: {x: -0.008163981, y: 0.038700327, z: 0.040053476, w: 0.99841446}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999964}
+    - name: SRing_Distal3.L
+      parentName: 
+      position: {x: 2.9802322e-10, y: 0.0003013481, z: 7.45058e-10}
+      rotation: {x: -0.018626478, y: -0.023997137, z: 0.084954426, w: 0.9959217}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1.0000002}
+    - name: SThumb_Proximal1.L
+      parentName: 
+      position: {x: -0.0003630091, y: 0.000093815695, z: -0.00016246535}
+      rotation: {x: 0.10072036, y: -0.18958521, z: -0.391818, w: -0.8946461}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.99999994}
+    - name: SThumb_Intermediate2.L
+      parentName: 
+      position: {x: -9.872019e-10, y: 0.00042504078, z: 0.0000000017136335}
+      rotation: {x: 0.010361818, y: -0.033259816, z: -0.036619775, w: 0.99872196}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: SThumb_Distal3.L
+      parentName: 
+      position: {x: 1.4901161e-10, y: 0.00047935752, z: -8.1956386e-10}
+      rotation: {x: 0.050195552, y: 0.061227344, z: -0.10886538, w: 0.9908986}
+      scale: {x: 0.99999976, y: 0.99999964, z: 1.0000002}
+    - name: SShoulder.R
+      parentName: 
+      position: {x: 0.00019440083, y: 0.0019808225, z: -0.0000000016391277}
+      rotation: {x: 0.58772296, y: 0.46894836, z: 0.46894774, w: -0.46341905}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: SUpperArm.R
+      parentName: 
+      position: {x: 2.9802322e-10, y: 0.0017150446, z: -0.0000000023143365}
+      rotation: {x: 0.044465046, y: -0.018762795, z: -0.027270671, w: 0.9984624}
+      scale: {x: 1, y: 0.9999999, z: 0.9999997}
+    - name: SLowerArm.R
+      parentName: 
+      position: {x: -0.000000010591066, y: 0.0029578651, z: -0.000000044557964}
+      rotation: {x: 0.004033812, y: -0.0013830788, z: -0.027998786, w: 0.9995989}
+      scale: {x: 0.99999976, y: 1.0000005, z: 0.9999999}
+    - name: SHand.R
+      parentName: 
+      position: {x: -0.00000007599223, y: 0.0029596651, z: -0.00000030271804}
+      rotation: {x: 0.008000678, y: -0.12977591, z: -0.12187993, w: -0.9839916}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: SIndex_Proximal1.R
+      parentName: 
+      position: {x: 0.00044389968, y: 0.0010000505, z: -0.0000019952631}
+      rotation: {x: 0.018098209, y: 0.70349836, z: -0.07667895, w: 0.7063165}
+      scale: {x: 0.9999997, y: 0.99999946, z: 0.9999993}
+    - name: SIndex_Intermediate2.R
+      parentName: 
+      position: {x: 1.5832484e-10, y: 0.0005752596, z: 4.842877e-10}
+      rotation: {x: 0.00006765033, y: 0.017869426, z: 0.03314303, w: -0.99929094}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999998}
+    - name: SIndex_Distal3.R
+      parentName: 
+      position: {x: -0.0000000021979212, y: 0.000275196, z: -2.5844202e-10}
+      rotation: {x: -0.00097074534, y: 0.008246145, z: -0.08425001, w: 0.99641013}
+      scale: {x: 0.9999999, y: 0.9999995, z: 0.9999997}
+    - name: SMedius_Proximal1.R
+      parentName: 
+      position: {x: 0.000105429404, y: 0.0010742705, z: 0.000068912566}
+      rotation: {x: 0.0009087632, y: -0.647217, z: 0.057193827, w: -0.76015675}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000002}
+    - name: SMedius_Intermediate2.R
+      parentName: 
+      position: {x: -3.352761e-10, y: 0.0006745953, z: 0.000000003837049}
+      rotation: {x: -0.0067639453, y: -0.035910208, z: -0.03519409, w: 0.99871224}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: SMedius_Distal3.R
+      parentName: 
+      position: {x: -2.9802322e-10, y: 0.00030468687, z: -0.0000000019371509}
+      rotation: {x: 0.0035702065, y: 0.013659418, z: 0.016523136, w: 0.99976385}
+      scale: {x: 1, y: 1.0000001, z: 0.9999996}
+    - name: SPinky_Proximal1.R
+      parentName: 
+      position: {x: -0.00046590803, y: 0.0010220743, z: 0.000011714871}
+      rotation: {x: 0.0033016435, y: -0.576533, z: 0.03612791, w: -0.8162681}
+      scale: {x: 0.9999995, y: 1.0000001, z: 0.9999992}
+    - name: SPinky_Intermediate2.R
+      parentName: 
+      position: {x: -8.9406965e-10, y: 0.0003820341, z: 6.705522e-10}
+      rotation: {x: -0.005447336, y: -0.0528255, z: -0.03824126, w: 0.99785644}
+      scale: {x: 0.99999976, y: 0.9999993, z: 0.99999964}
+    - name: SPinky_Distal3.R
+      parentName: 
+      position: {x: -0.0000000020116566, y: 0.00020147282, z: -7.45058e-10}
+      rotation: {x: -0.0272891, y: 0.00265339, z: -0.14036225, w: 0.9897206}
+      scale: {x: 1, y: 1.0000006, z: 1.0000001}
+    - name: SRing_Proximal1.R
+      parentName: 
+      position: {x: -0.00020004019, y: 0.0011159135, z: 0.000063828535}
+      rotation: {x: 0.0039245845, y: -0.61515385, z: 0.0479225, w: -0.7869395}
+      scale: {x: 0.9999996, y: 0.99999976, z: 1}
+    - name: SRing_Intermediate2.R
+      parentName: 
+      position: {x: -0.000000001117587, y: 0.00053953665, z: -6.705522e-10}
+      rotation: {x: -0.008163108, y: -0.0387005, z: -0.040050272, w: 0.9984146}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000002}
+    - name: SRing_Distal3.R
+      parentName: 
+      position: {x: 1.4901161e-10, y: 0.00030134778, z: -4.842877e-10}
+      rotation: {x: -0.018626584, y: 0.023997206, z: -0.084954806, w: 0.9959216}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.9999999}
+    - name: SThumb_Proximal1.R
+      parentName: 
+      position: {x: 0.00036301024, y: 0.00009381771, z: -0.00016246403}
+      rotation: {x: 0.10071874, y: 0.18958625, z: 0.39181855, w: -0.89464575}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000004}
+    - name: SThumb_Intermediate2.R
+      parentName: 
+      position: {x: 2.2351741e-10, y: 0.0004250404, z: 0.0000000010430813}
+      rotation: {x: 0.010361433, y: 0.033251926, z: 0.036619037, w: 0.9987222}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: SThumb_Distal3.R
+      parentName: 
+      position: {x: -2.6077032e-10, y: 0.00047935708, z: -5.9604643e-10}
+      rotation: {x: 0.032205965, y: 0.024362084, z: 0.11547948, w: 0.9924887}
+      scale: {x: 0.9999995, y: 0.9999995, z: 0.99999964}
+    - name: SUpperLeg.L
+      parentName: 
+      position: {x: -0.00095567247, y: -0.00038085724, z: -0.000035383902}
+      rotation: {x: 0.9980683, y: -0.061969735, z: -0.002202706, w: -0.003820598}
+      scale: {x: 1.0000064, y: 0.9999997, z: 0.9999999}
+    - name: SLowerLeg.L
+      parentName: 
+      position: {x: -1.3038516e-10, y: 0.0046074423, z: -3.7252902e-11}
+      rotation: {x: 0.10044131, y: 0.030138526, z: -0.04340403, w: 0.9935388}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999998}
+    - name: SFoot.L
+      parentName: 
+      position: {x: 9.313225e-11, y: 0.004144762, z: -2.0256266e-10}
+      rotation: {x: -0.4813209, y: 0.017940119, z: -0.02778268, w: 0.87592036}
+      scale: {x: 0.9999991, y: 1, z: 0.9999997}
+    - name: SLegToe1.L
+      parentName: 
+      position: {x: 1.6065314e-10, y: 0.0017681157, z: 2.2351741e-10}
+      rotation: {x: 0.03639907, y: 0.92629784, z: -0.37438938, w: 0.021910353}
+      scale: {x: 0.999999, y: 1.0000005, z: 1.0000004}
+    - name: SUpperLeg.R
+      parentName: 
+      position: {x: 0.00095567224, y: -0.00038085744, z: -0.000035384724}
+      rotation: {x: 0.9980684, y: 0.06196851, z: 0.0022016782, w: -0.0038208147}
+      scale: {x: 0.999985, y: 0.9999995, z: 0.9999994}
+    - name: SLowerLeg.R
+      parentName: 
+      position: {x: 0.0000000012665987, y: 0.004607442, z: 0.0000000071153043}
+      rotation: {x: 0.10044072, y: -0.030139089, z: 0.043405425, w: 0.9935388}
+      scale: {x: 1.0000004, y: 1, z: 1.0000006}
+    - name: SFoot.R
+      parentName: 
+      position: {x: 1.8626451e-11, y: 0.0041447654, z: 7.4505804e-11}
+      rotation: {x: -0.48132056, y: -0.017941155, z: 0.027783183, w: 0.87592053}
+      scale: {x: 1.000001, y: 0.9999998, z: 0.9999994}
+    - name: SLegToe1.R
+      parentName: 
+      position: {x: -2.4912877e-10, y: 0.0017681157, z: 1.4901161e-10}
+      rotation: {x: -0.036753282, y: 0.92631805, z: -0.37435433, w: -0.021044154}
+      scale: {x: 1.0000012, y: 0.99999833, z: 1.0000001}
+    - name: Soldierz_clean
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: aac2f366785ac904ba635e0137fbc818,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

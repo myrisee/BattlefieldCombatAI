@@ -1,0 +1,8 @@
+UFPS versions 2.x shouldn't require any code modifications.  
+For UFPS versions 1.x, see the PDF manual.
+
+However, you may need to modify the layermasks on the TSAI bullets, AI Controllers and Cover Nodes.
+	Bullets should include the layers that your environment, player and agents are on.
+	AI Controllers and Cover Nodes should include the layer your environment is on.
+
+You will also need to attach a TargetScript to your player.

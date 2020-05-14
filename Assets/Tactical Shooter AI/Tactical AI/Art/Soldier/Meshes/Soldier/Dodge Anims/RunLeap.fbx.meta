@@ -1,0 +1,2300 @@
+fileFormatVersion: 2
+guid: 140c68feea70b1b449ac68d661a517dc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ArmUpper2.L
+    100002: Chest.L
+    100004: Chest.L_end
+    100006: Chest.R
+    100008: Chest.R_end
+    100010: Ctl_ArmBi_Helper.L
+    100012: Ctl_ArmBi_Helper.L_end
+    100014: Ctl_ArmBi_Helper.R
+    100016: Ctl_ArmBi_Helper.R_end
+    100018: Ctl_shoulder_Helper.L
+    100020: Ctl_shoulder_Helper.L_end
+    100022: Ctl_shoulder_Helper.R
+    100024: Ctl_shoulder_Helper.R_end
+    100026: Ctrl__Master_AltLocator
+    100028: Ctrl__Master_AltLocator_end
+    100030: Ctrl_Chest
+    100032: Ctrl_COG_Rot
+    100034: Ctrl_COGRot_Follow_ForArms
+    100036: Ctrl_COGRot_Follow_ForArms_end
+    100038: Ctrl_COGRot_Follow_ForLegs
+    100040: Ctrl_COGRot_Follow_ForLegs_end
+    100042: Ctrl_COGz.001
+    100044: Ctrl_COGz.001_end
+    100046: Ctrl_COGzMove
+    100048: Ctrl_COGzMove_end
+    100050: Ctrl_Head_FK
+    100052: Ctrl_Head_FK_end
+    100054: Ctrl_head_Target
+    100056: Ctrl_head_Target_end
+    100058: Ctrl_HeelRoll.L
+    100060: Ctrl_HeelRoll.R
+    100062: Ctrl_Hips
+    100064: Ctrl_Index.L
+    100066: Ctrl_Index.L_end
+    100068: Ctrl_Index.R
+    100070: Ctrl_Index.R_end
+    100072: Ctrl_Medius.L
+    100074: Ctrl_Medius.L_end
+    100076: Ctrl_Medius.R
+    100078: Ctrl_Medius.R_end
+    100080: Ctrl_Neck
+    100082: Ctrl_Neck_end
+    100084: Ctrl_Pinky.L
+    100086: Ctrl_Pinky.L_end
+    100088: Ctrl_Pinky.R
+    100090: Ctrl_Pinky.R_end
+    100092: Ctrl_Ring.L
+    100094: Ctrl_Ring.L_end
+    100096: Ctrl_Ring.R
+    100098: Ctrl_Ring.R_end
+    100100: Ctrl_shoulder.L
+    100102: Ctrl_shoulder.R
+    100104: Ctrl_Spine
+    100106: Ctrl_Thumb.L
+    100108: Ctrl_Thumb.L_end
+    100110: Ctrl_Thumb.R
+    100112: Ctrl_Thumb.R_end
+    100114: Ctrl_Toe.L
+    100116: Ctrl_Toe.L_end
+    100118: Ctrl_Toe.R
+    100120: Ctrl_Toe.R_end
+    100122: Ctrl_ToePivot.L
+    100124: Ctrl_ToePivot.R
+    100126: Ctrl_ToePivotBallRot.L
+    100128: Ctrl_ToePivotBallRot.R
+    100130: def_Body_chest
+    100132: def_Body_hips
+    100134: def_Body_spine
+    100136: def_foot.L
+    100138: def_foot.R
+    100140: Def_forearm.L
+    100142: Def_forearm.R
+    100144: def_hand.L
+    100146: def_hand.R
+    100148: def_head
+    100150: def_head_end
+    100152: Def_Index_Distal3_L
+    100154: Def_Index_Distal3_L_end
+    100156: Def_Index_Distal3_R
+    100158: Def_Index_Distal3_R_end
+    100160: Def_Index_Intermediate2_L
+    100162: Def_Index_Intermediate2_R
+    100164: Def_Index_Proximal1_L
+    100166: Def_Index_Proximal1_R
+    100168: Def_Medius_Distal3_L
+    100170: Def_Medius_Distal3_L_end
+    100172: Def_Medius_Distal3_R
+    100174: Def_Medius_Distal3_R_end
+    100176: Def_Medius_Intermediate2_L
+    100178: Def_Medius_Intermediate2_R
+    100180: Def_Medius_Proximal1_L
+    100182: Def_Medius_Proximal1_R
+    100184: def_neck
+    100186: Def_Pinky_Distal3_L
+    100188: Def_Pinky_Distal3_L_end
+    100190: Def_Pinky_Distal3_R
+    100192: Def_Pinky_Distal3_R_end
+    100194: Def_Pinky_Intermediate2_L
+    100196: Def_Pinky_Intermediate2_R
+    100198: Def_Pinky_Proximal1_L
+    100200: Def_Pinky_Proximal1_R
+    100202: Def_Ring_Distal3_L
+    100204: Def_Ring_Distal3_L_end
+    100206: Def_Ring_Distal3_R
+    100208: Def_Ring_Distal3_R_end
+    100210: Def_Ring_Intermediate2_L
+    100212: Def_Ring_Intermediate2_R
+    100214: Def_Ring_Proximal1_L
+    100216: Def_Ring_Proximal1_R
+    100218: Def_shin.L
+    100220: Def_shin.R
+    100222: def_shoulder.L
+    100224: def_shoulder.R
+    100226: def_thigh.L
+    100228: def_thigh.R
+    100230: Def_Thumb_Distal3_L
+    100232: Def_Thumb_Distal3_L_end
+    100234: Def_Thumb_Distal3_R
+    100236: Def_Thumb_Distal3_R_end
+    100238: Def_Thumb_Intermediate2_L
+    100240: Def_Thumb_Intermediate2_R
+    100242: Def_Thumb_Proximal1_L
+    100244: Def_Thumb_Proximal1_R
+    100246: def_toe.L
+    100248: def_toe.L_end
+    100250: def_toe.R
+    100252: def_toe.R_end
+    100254: def_upperArm.L
+    100256: def_upperArm.R
+    100258: elbow_target.ik.L
+    100260: elbow_target.ik.L_end
+    100262: elbow_target.ik.R
+    100264: elbow_target.ik.R_end
+    100266: FK_thigh_Locator.L
+    100268: FK_thigh_Locator.L.001
+    100270: FK_thigh_Locator.L.001_end
+    100272: FK_thigh_Locator.R
+    100274: FK_thigh_Locator.R.001
+    100276: FK_thigh_Locator.R.001_end
+    100278: FK_upperArm_Locator.L
+    100280: FK_upperArm_Locator.R
+    100282: Flex_Chest
+    100284: Flex_Chest_end
+    100286: Flex_Hips
+    100288: foot.fk.L
+    100290: foot.fk.R
+    100292: foot.ik.L
+    100294: foot.ik.R
+    100296: foot_roll.ik.L
+    100298: foot_roll.ik.L_end
+    100300: foot_roll.ik.R
+    100302: foot_roll.ik.R_end
+    100304: footStick.L
+    100306: footStick.L_end
+    100308: footStick.R
+    100310: footStick.R_end
+    100312: forearm.fk.L
+    100314: forearm.fk.R
+    100316: FrontHandLocation.L
+    100318: FrontHandLocation.R
+    100320: FrontHandLocation2.L
+    100322: FrontHandLocation2.L_end
+    100324: FrontHandLocation2.R
+    100326: FrontHandLocation2.R_end
+    100328: FrontRoll.L
+    100330: FrontRoll.R
+    100332: hand.fk.L
+    100334: hand.fk.L_end
+    100336: hand.fk.R
+    100338: hand.fk.R_end
+    100340: hand.fk2.L
+    100342: hand.fk2.R
+    100344: hand.FkLocatorForIk.L
+    100346: hand.FkLocatorForIk.L_end
+    100348: hand.FkLocatorForIk.R
+    100350: hand.FkLocatorForIk.R_end
+    100352: hand.ik.L
+    100354: hand.ik.L_end
+    100356: hand.ik.R
+    100358: hand.ik.R_end
+    100360: hand.ik2.L
+    100362: hand.ik2.L_end
+    100364: hand.ik2.R
+    100366: hand.ik2.R_end
+    100368: hand.ikRotationDirectionBUffer.L
+    100370: hand.ikRotationDirectionBUffer.L_end
+    100372: hand.ikRotationDirectionBUffer.R
+    100374: hand.ikRotationDirectionBUffer.R_end
+    100376: HandGrip_SliderBase.L
+    100378: HandGrip_SliderBase.R
+    100380: HandSwordLocation.L
+    100382: HandSwordLocation.L_end
+    100384: HandSwordLocation.R
+    100386: HandSwordM_Ctrl.L
+    100388: HandSwordM_Ctrl.R
+    100390: head_hinge
+    100392: Head_IKLookAt
+    100394: Head_IKLookAt_end
+    100396: IK_Contstriant_Locator_L
+    100398: IK_Contstriant_Locator_L_end
+    100400: IK_Contstriant_Locator_R
+    100402: IK_Contstriant_Locator_R_end
+    100404: IKNeck50%Follow
+    100406: IKNeck50%Follow_end
+    100408: IKNeckWithDriver
+    100410: IKNeckWithDriver_end
+    100412: knee_target.ik.L
+    100414: knee_target.ik.L_end
+    100416: knee_target.ik.R
+    100418: knee_target.ik.R_end
+    100420: MCH-foot.L
+    100422: MCH-foot.L.001
+    100424: MCH-foot.L_end
+    100426: MCH-foot.R
+    100428: MCH-foot.R.001
+    100430: MCH-foot.R_end
+    100432: MCH-forearm.ik.L
+    100434: MCH-forearm.ik.L_end
+    100436: MCH-forearm.ik.R
+    100438: MCH-forearm.ik.R_end
+    100440: MCH-shin.ik.L
+    100442: MCH-shin.ik.L_end
+    100444: MCH-shin.ik.R
+    100446: MCH-shin.ik.R_end
+    100448: MCH-thigh.ik.L
+    100450: MCH-thigh.ik.R
+    100452: MCH-upper_arm.ik.L
+    100454: MCH-upper_arm.ik.R
+    100456: oneHanded_SliderHilt.L
+    100458: oneHanded_SliderHilt.R
+    100460: oneHanded_SliderPalm.L
+    100462: oneHanded_SliderPalm.L_end
+    100464: oneHanded_SliderPalm.R
+    100466: oneHanded_SliderPalm.R_end
+    100468: oneHanded_SliderPalmBase.L
+    100470: oneHanded_SliderPalmBase.R
+    100472: oneHanded_SliderReach.L
+    100474: oneHanded_SliderReach.R
+    100476: oneHanded_SwordFollow.L
+    100478: oneHanded_SwordFollow.R
+    100480: Pointer_shoulder.L
+    100482: Pointer_shoulder.L_end
+    100484: Pointer_shoulder.R
+    100486: Pointer_shoulder.R_end
+    100488: RearhandLocation.L
+    100490: RearhandLocation.R
+    100492: RearhandLocation2.L
+    100494: RearhandLocation2.L_end
+    100496: RearhandLocation2.R
+    100498: RearhandLocation2.R_end
+    100500: Reyelid
+    100502: Reyelid_end
+    100504: root
+    100506: Roratez
+    100508: //RootNode
+    100510: SArmForearm2.L
+    100512: SArmForearm2.R
+    100514: SArmUpper2.R
+    100516: SChest
+    100518: SFoot.L
+    100520: SFoot.R
+    100522: SHand.L
+    100524: SHand.R
+    100526: ShealthBase
+    100528: ShealthBase_end
+    100530: ShealthDef
+    100532: ShealthDef_end
+    100534: ShealthFollow
+    100536: ShealthPivot
+    100538: Shield
+    100540: Shield_end
+    100542: Shield_LocationAdjustment
+    100544: ShieldArmIk.L
+    100546: ShieldArmIk.R
+    100548: ShieldHand.L
+    100550: ShieldHand.L_end
+    100552: ShieldHand.R
+    100554: ShieldHand.R_end
+    100556: shin.fk.L
+    100558: shin.fk.R
+    100560: SHips
+    100562: SIndex_Distal3.L
+    100564: SIndex_Distal3.L_end
+    100566: SIndex_Distal3.R
+    100568: SIndex_Distal3.R_end
+    100570: SIndex_Intermediate2.L
+    100572: SIndex_Intermediate2.R
+    100574: SIndex_Proximal1.L
+    100576: SIndex_Proximal1.R
+    100578: SLbrow
+    100580: SLbrow_end
+    100582: SLegToe1.L
+    100584: SLegToe1.L_end
+    100586: SLegToe1.R
+    100588: SLegToe1.R_end
+    100590: SLeyelid
+    100592: SLeyelid_end
+    100594: SLmouth
+    100596: SLmouth_end
+    100598: SLowerArm.L
+    100600: SLowerArm.R
+    100602: SLowerLeg.L
+    100604: SLowerLeg.R
+    100606: SMedius_Distal3.L
+    100608: SMedius_Distal3.L_end
+    100610: SMedius_Distal3.R
+    100612: SMedius_Distal3.R_end
+    100614: SMedius_Intermediate2.L
+    100616: SMedius_Intermediate2.R
+    100618: SMedius_Proximal1.L
+    100620: SMedius_Proximal1.R
+    100622: SNeck1
+    100624: SNeckHead
+    100626: SPelvis/Root
+    100628: SPinky_Distal3.L
+    100630: SPinky_Distal3.L_end
+    100632: SPinky_Distal3.R
+    100634: SPinky_Distal3.R_end
+    100636: SPinky_Intermediate2.L
+    100638: SPinky_Intermediate2.R
+    100640: SPinky_Proximal1.L
+    100642: SPinky_Proximal1.R
+    100644: SRbrow
+    100646: SRbrow_end
+    100648: SRing_Distal3.L
+    100650: SRing_Distal3.L_end
+    100652: SRing_Distal3.R
+    100654: SRing_Distal3.R_end
+    100656: SRing_Intermediate2.L
+    100658: SRing_Intermediate2.R
+    100660: SRing_Proximal1.L
+    100662: SRing_Proximal1.R
+    100664: SRmouth
+    100666: SRmouth_end
+    100668: SShoulder.L
+    100670: SShoulder.R
+    100672: SSpine
+    100674: SThumb_Distal3.L
+    100676: SThumb_Distal3.L_end
+    100678: SThumb_Distal3.R
+    100680: SThumb_Distal3.R_end
+    100682: SThumb_Intermediate2.L
+    100684: SThumb_Intermediate2.R
+    100686: SThumb_Proximal1.L
+    100688: SThumb_Proximal1.R
+    100690: SUpperArm.L
+    100692: SUpperArm.R
+    100694: SUpperLeg.L
+    100696: SUpperLeg.R
+    100698: SwordDef.L
+    100700: SwordDef.L_end
+    100702: SwordDef.R
+    100704: SwordDef.R_end
+    100706: SwordHandLoc_Rotator_Ctrl.L
+    100708: SwordHandLoc_Rotator_Ctrl.R
+    100710: SwordStickINGround.L
+    100712: SwordStickINGround.L_end
+    100714: SwordStickINGround.R
+    100716: SwordStickINGround.R_end
+    100718: thigh.fk.L
+    100720: thigh.fk.R
+    100722: toe.fk.L
+    100724: toe.fk.L_end
+    100726: toe.fk.R
+    100728: toe.fk.R_end
+    100730: upper_arm.fk.L
+    100732: upper_arm.fk.R
+    100734: Arm_Soldier_Ctlsz
+    100736: Soldier2.001
+    100738: Soldierz_clean
+    400000: ArmUpper2.L
+    400002: Chest.L
+    400004: Chest.L_end
+    400006: Chest.R
+    400008: Chest.R_end
+    400010: Ctl_ArmBi_Helper.L
+    400012: Ctl_ArmBi_Helper.L_end
+    400014: Ctl_ArmBi_Helper.R
+    400016: Ctl_ArmBi_Helper.R_end
+    400018: Ctl_shoulder_Helper.L
+    400020: Ctl_shoulder_Helper.L_end
+    400022: Ctl_shoulder_Helper.R
+    400024: Ctl_shoulder_Helper.R_end
+    400026: Ctrl__Master_AltLocator
+    400028: Ctrl__Master_AltLocator_end
+    400030: Ctrl_Chest
+    400032: Ctrl_COG_Rot
+    400034: Ctrl_COGRot_Follow_ForArms
+    400036: Ctrl_COGRot_Follow_ForArms_end
+    400038: Ctrl_COGRot_Follow_ForLegs
+    400040: Ctrl_COGRot_Follow_ForLegs_end
+    400042: Ctrl_COGz.001
+    400044: Ctrl_COGz.001_end
+    400046: Ctrl_COGzMove
+    400048: Ctrl_COGzMove_end
+    400050: Ctrl_Head_FK
+    400052: Ctrl_Head_FK_end
+    400054: Ctrl_head_Target
+    400056: Ctrl_head_Target_end
+    400058: Ctrl_HeelRoll.L
+    400060: Ctrl_HeelRoll.R
+    400062: Ctrl_Hips
+    400064: Ctrl_Index.L
+    400066: Ctrl_Index.L_end
+    400068: Ctrl_Index.R
+    400070: Ctrl_Index.R_end
+    400072: Ctrl_Medius.L
+    400074: Ctrl_Medius.L_end
+    400076: Ctrl_Medius.R
+    400078: Ctrl_Medius.R_end
+    400080: Ctrl_Neck
+    400082: Ctrl_Neck_end
+    400084: Ctrl_Pinky.L
+    400086: Ctrl_Pinky.L_end
+    400088: Ctrl_Pinky.R
+    400090: Ctrl_Pinky.R_end
+    400092: Ctrl_Ring.L
+    400094: Ctrl_Ring.L_end
+    400096: Ctrl_Ring.R
+    400098: Ctrl_Ring.R_end
+    400100: Ctrl_shoulder.L
+    400102: Ctrl_shoulder.R
+    400104: Ctrl_Spine
+    400106: Ctrl_Thumb.L
+    400108: Ctrl_Thumb.L_end
+    400110: Ctrl_Thumb.R
+    400112: Ctrl_Thumb.R_end
+    400114: Ctrl_Toe.L
+    400116: Ctrl_Toe.L_end
+    400118: Ctrl_Toe.R
+    400120: Ctrl_Toe.R_end
+    400122: Ctrl_ToePivot.L
+    400124: Ctrl_ToePivot.R
+    400126: Ctrl_ToePivotBallRot.L
+    400128: Ctrl_ToePivotBallRot.R
+    400130: def_Body_chest
+    400132: def_Body_hips
+    400134: def_Body_spine
+    400136: def_foot.L
+    400138: def_foot.R
+    400140: Def_forearm.L
+    400142: Def_forearm.R
+    400144: def_hand.L
+    400146: def_hand.R
+    400148: def_head
+    400150: def_head_end
+    400152: Def_Index_Distal3_L
+    400154: Def_Index_Distal3_L_end
+    400156: Def_Index_Distal3_R
+    400158: Def_Index_Distal3_R_end
+    400160: Def_Index_Intermediate2_L
+    400162: Def_Index_Intermediate2_R
+    400164: Def_Index_Proximal1_L
+    400166: Def_Index_Proximal1_R
+    400168: Def_Medius_Distal3_L
+    400170: Def_Medius_Distal3_L_end
+    400172: Def_Medius_Distal3_R
+    400174: Def_Medius_Distal3_R_end
+    400176: Def_Medius_Intermediate2_L
+    400178: Def_Medius_Intermediate2_R
+    400180: Def_Medius_Proximal1_L
+    400182: Def_Medius_Proximal1_R
+    400184: def_neck
+    400186: Def_Pinky_Distal3_L
+    400188: Def_Pinky_Distal3_L_end
+    400190: Def_Pinky_Distal3_R
+    400192: Def_Pinky_Distal3_R_end
+    400194: Def_Pinky_Intermediate2_L
+    400196: Def_Pinky_Intermediate2_R
+    400198: Def_Pinky_Proximal1_L
+    400200: Def_Pinky_Proximal1_R
+    400202: Def_Ring_Distal3_L
+    400204: Def_Ring_Distal3_L_end
+    400206: Def_Ring_Distal3_R
+    400208: Def_Ring_Distal3_R_end
+    400210: Def_Ring_Intermediate2_L
+    400212: Def_Ring_Intermediate2_R
+    400214: Def_Ring_Proximal1_L
+    400216: Def_Ring_Proximal1_R
+    400218: Def_shin.L
+    400220: Def_shin.R
+    400222: def_shoulder.L
+    400224: def_shoulder.R
+    400226: def_thigh.L
+    400228: def_thigh.R
+    400230: Def_Thumb_Distal3_L
+    400232: Def_Thumb_Distal3_L_end
+    400234: Def_Thumb_Distal3_R
+    400236: Def_Thumb_Distal3_R_end
+    400238: Def_Thumb_Intermediate2_L
+    400240: Def_Thumb_Intermediate2_R
+    400242: Def_Thumb_Proximal1_L
+    400244: Def_Thumb_Proximal1_R
+    400246: def_toe.L
+    400248: def_toe.L_end
+    400250: def_toe.R
+    400252: def_toe.R_end
+    400254: def_upperArm.L
+    400256: def_upperArm.R
+    400258: elbow_target.ik.L
+    400260: elbow_target.ik.L_end
+    400262: elbow_target.ik.R
+    400264: elbow_target.ik.R_end
+    400266: FK_thigh_Locator.L
+    400268: FK_thigh_Locator.L.001
+    400270: FK_thigh_Locator.L.001_end
+    400272: FK_thigh_Locator.R
+    400274: FK_thigh_Locator.R.001
+    400276: FK_thigh_Locator.R.001_end
+    400278: FK_upperArm_Locator.L
+    400280: FK_upperArm_Locator.R
+    400282: Flex_Chest
+    400284: Flex_Chest_end
+    400286: Flex_Hips
+    400288: foot.fk.L
+    400290: foot.fk.R
+    400292: foot.ik.L
+    400294: foot.ik.R
+    400296: foot_roll.ik.L
+    400298: foot_roll.ik.L_end
+    400300: foot_roll.ik.R
+    400302: foot_roll.ik.R_end
+    400304: footStick.L
+    400306: footStick.L_end
+    400308: footStick.R
+    400310: footStick.R_end
+    400312: forearm.fk.L
+    400314: forearm.fk.R
+    400316: FrontHandLocation.L
+    400318: FrontHandLocation.R
+    400320: FrontHandLocation2.L
+    400322: FrontHandLocation2.L_end
+    400324: FrontHandLocation2.R
+    400326: FrontHandLocation2.R_end
+    400328: FrontRoll.L
+    400330: FrontRoll.R
+    400332: hand.fk.L
+    400334: hand.fk.L_end
+    400336: hand.fk.R
+    400338: hand.fk.R_end
+    400340: hand.fk2.L
+    400342: hand.fk2.R
+    400344: hand.FkLocatorForIk.L
+    400346: hand.FkLocatorForIk.L_end
+    400348: hand.FkLocatorForIk.R
+    400350: hand.FkLocatorForIk.R_end
+    400352: hand.ik.L
+    400354: hand.ik.L_end
+    400356: hand.ik.R
+    400358: hand.ik.R_end
+    400360: hand.ik2.L
+    400362: hand.ik2.L_end
+    400364: hand.ik2.R
+    400366: hand.ik2.R_end
+    400368: hand.ikRotationDirectionBUffer.L
+    400370: hand.ikRotationDirectionBUffer.L_end
+    400372: hand.ikRotationDirectionBUffer.R
+    400374: hand.ikRotationDirectionBUffer.R_end
+    400376: HandGrip_SliderBase.L
+    400378: HandGrip_SliderBase.R
+    400380: HandSwordLocation.L
+    400382: HandSwordLocation.L_end
+    400384: HandSwordLocation.R
+    400386: HandSwordM_Ctrl.L
+    400388: HandSwordM_Ctrl.R
+    400390: head_hinge
+    400392: Head_IKLookAt
+    400394: Head_IKLookAt_end
+    400396: IK_Contstriant_Locator_L
+    400398: IK_Contstriant_Locator_L_end
+    400400: IK_Contstriant_Locator_R
+    400402: IK_Contstriant_Locator_R_end
+    400404: IKNeck50%Follow
+    400406: IKNeck50%Follow_end
+    400408: IKNeckWithDriver
+    400410: IKNeckWithDriver_end
+    400412: knee_target.ik.L
+    400414: knee_target.ik.L_end
+    400416: knee_target.ik.R
+    400418: knee_target.ik.R_end
+    400420: MCH-foot.L
+    400422: MCH-foot.L.001
+    400424: MCH-foot.L_end
+    400426: MCH-foot.R
+    400428: MCH-foot.R.001
+    400430: MCH-foot.R_end
+    400432: MCH-forearm.ik.L
+    400434: MCH-forearm.ik.L_end
+    400436: MCH-forearm.ik.R
+    400438: MCH-forearm.ik.R_end
+    400440: MCH-shin.ik.L
+    400442: MCH-shin.ik.L_end
+    400444: MCH-shin.ik.R
+    400446: MCH-shin.ik.R_end
+    400448: MCH-thigh.ik.L
+    400450: MCH-thigh.ik.R
+    400452: MCH-upper_arm.ik.L
+    400454: MCH-upper_arm.ik.R
+    400456: oneHanded_SliderHilt.L
+    400458: oneHanded_SliderHilt.R
+    400460: oneHanded_SliderPalm.L
+    400462: oneHanded_SliderPalm.L_end
+    400464: oneHanded_SliderPalm.R
+    400466: oneHanded_SliderPalm.R_end
+    400468: oneHanded_SliderPalmBase.L
+    400470: oneHanded_SliderPalmBase.R
+    400472: oneHanded_SliderReach.L
+    400474: oneHanded_SliderReach.R
+    400476: oneHanded_SwordFollow.L
+    400478: oneHanded_SwordFollow.R
+    400480: Pointer_shoulder.L
+    400482: Pointer_shoulder.L_end
+    400484: Pointer_shoulder.R
+    400486: Pointer_shoulder.R_end
+    400488: RearhandLocation.L
+    400490: RearhandLocation.R
+    400492: RearhandLocation2.L
+    400494: RearhandLocation2.L_end
+    400496: RearhandLocation2.R
+    400498: RearhandLocation2.R_end
+    400500: Reyelid
+    400502: Reyelid_end
+    400504: root
+    400506: Roratez
+    400508: //RootNode
+    400510: SArmForearm2.L
+    400512: SArmForearm2.R
+    400514: SArmUpper2.R
+    400516: SChest
+    400518: SFoot.L
+    400520: SFoot.R
+    400522: SHand.L
+    400524: SHand.R
+    400526: ShealthBase
+    400528: ShealthBase_end
+    400530: ShealthDef
+    400532: ShealthDef_end
+    400534: ShealthFollow
+    400536: ShealthPivot
+    400538: Shield
+    400540: Shield_end
+    400542: Shield_LocationAdjustment
+    400544: ShieldArmIk.L
+    400546: ShieldArmIk.R
+    400548: ShieldHand.L
+    400550: ShieldHand.L_end
+    400552: ShieldHand.R
+    400554: ShieldHand.R_end
+    400556: shin.fk.L
+    400558: shin.fk.R
+    400560: SHips
+    400562: SIndex_Distal3.L
+    400564: SIndex_Distal3.L_end
+    400566: SIndex_Distal3.R
+    400568: SIndex_Distal3.R_end
+    400570: SIndex_Intermediate2.L
+    400572: SIndex_Intermediate2.R
+    400574: SIndex_Proximal1.L
+    400576: SIndex_Proximal1.R
+    400578: SLbrow
+    400580: SLbrow_end
+    400582: SLegToe1.L
+    400584: SLegToe1.L_end
+    400586: SLegToe1.R
+    400588: SLegToe1.R_end
+    400590: SLeyelid
+    400592: SLeyelid_end
+    400594: SLmouth
+    400596: SLmouth_end
+    400598: SLowerArm.L
+    400600: SLowerArm.R
+    400602: SLowerLeg.L
+    400604: SLowerLeg.R
+    400606: SMedius_Distal3.L
+    400608: SMedius_Distal3.L_end
+    400610: SMedius_Distal3.R
+    400612: SMedius_Distal3.R_end
+    400614: SMedius_Intermediate2.L
+    400616: SMedius_Intermediate2.R
+    400618: SMedius_Proximal1.L
+    400620: SMedius_Proximal1.R
+    400622: SNeck1
+    400624: SNeckHead
+    400626: SPelvis/Root
+    400628: SPinky_Distal3.L
+    400630: SPinky_Distal3.L_end
+    400632: SPinky_Distal3.R
+    400634: SPinky_Distal3.R_end
+    400636: SPinky_Intermediate2.L
+    400638: SPinky_Intermediate2.R
+    400640: SPinky_Proximal1.L
+    400642: SPinky_Proximal1.R
+    400644: SRbrow
+    400646: SRbrow_end
+    400648: SRing_Distal3.L
+    400650: SRing_Distal3.L_end
+    400652: SRing_Distal3.R
+    400654: SRing_Distal3.R_end
+    400656: SRing_Intermediate2.L
+    400658: SRing_Intermediate2.R
+    400660: SRing_Proximal1.L
+    400662: SRing_Proximal1.R
+    400664: SRmouth
+    400666: SRmouth_end
+    400668: SShoulder.L
+    400670: SShoulder.R
+    400672: SSpine
+    400674: SThumb_Distal3.L
+    400676: SThumb_Distal3.L_end
+    400678: SThumb_Distal3.R
+    400680: SThumb_Distal3.R_end
+    400682: SThumb_Intermediate2.L
+    400684: SThumb_Intermediate2.R
+    400686: SThumb_Proximal1.L
+    400688: SThumb_Proximal1.R
+    400690: SUpperArm.L
+    400692: SUpperArm.R
+    400694: SUpperLeg.L
+    400696: SUpperLeg.R
+    400698: SwordDef.L
+    400700: SwordDef.L_end
+    400702: SwordDef.R
+    400704: SwordDef.R_end
+    400706: SwordHandLoc_Rotator_Ctrl.L
+    400708: SwordHandLoc_Rotator_Ctrl.R
+    400710: SwordStickINGround.L
+    400712: SwordStickINGround.L_end
+    400714: SwordStickINGround.R
+    400716: SwordStickINGround.R_end
+    400718: thigh.fk.L
+    400720: thigh.fk.R
+    400722: toe.fk.L
+    400724: toe.fk.L_end
+    400726: toe.fk.R
+    400728: toe.fk.R_end
+    400730: upper_arm.fk.L
+    400732: upper_arm.fk.R
+    400734: Arm_Soldier_Ctlsz
+    400736: Soldier2.001
+    400738: Soldierz_clean
+    4300000: Soldierz_clean
+    4300002: Soldier2.001
+    7400000: Scene
+    9500000: //RootNode
+    13700000: Soldier2.001
+    13700002: Soldierz_clean
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 5b909d3e73bbc5541ad5d365f597ba22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RigGun
+    second: {fileID: 2100000, guid: 87896405d559fa547998fca9025b27f0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Errors found in
+      old project file will be treated as a warnings. Configuration mis-match will
+      be ignored, but current Configuration needs to be fixed:\n\tTransform 'SArmUpper2.R'
+      not found in HumanDescription.\nCopied Avatar Rig Configuration mis-match. Bone
+      length in copied configuration does not match position in animation file:\n\t'SLowerArm.R'
+      : position error = 1.220226 mm\n\t'SHand.R' : position error = 1.221014 mm\n\t'SLowerArm.L'
+      : position error = 1.220222 mm\n\t'SHand.L' : position error = 1.220925 mm\n"
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm_Soldier_Ctlsz
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/Ctrl_head_Target
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Ctrl_head_Target/Ctrl_head_Target_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/Ctrl__Master_AltLocator
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/Ctrl__Master_AltLocator/Ctrl__Master_AltLocator_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Chest.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Chest.L/Chest.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Chest.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Chest.R/Chest.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_Neck
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_Neck/Ctrl_Neck_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.L/Ctl_shoulder_Helper.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.L/Ctl_shoulder_Helper.L/Ctl_shoulder_Helper.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.L/Pointer_shoulder.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.L/Pointer_shoulder.L/Pointer_shoulder.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.R/Ctl_shoulder_Helper.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.R/Ctl_shoulder_Helper.R/Ctl_shoulder_Helper.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.R/Pointer_shoulder.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/Ctrl_shoulder.R/Pointer_shoulder.R/Pointer_shoulder.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_neck
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_neck/def_head
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_neck/def_head/def_head_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Ctl_ArmBi_Helper.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Ctl_ArmBi_Helper.L/Ctl_ArmBi_Helper.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Index.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Index.L/Ctrl_Index.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Medius.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Medius.L/Ctrl_Medius.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Pinky.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Pinky.L/Ctrl_Pinky.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Ring.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Ring.L/Ctrl_Ring.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Thumb.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Ctrl_Thumb.L/Ctrl_Thumb.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Index_Proximal1_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Index_Proximal1_L/Def_Index_Intermediate2_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Index_Proximal1_L/Def_Index_Intermediate2_L/Def_Index_Distal3_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Index_Proximal1_L/Def_Index_Intermediate2_L/Def_Index_Distal3_L/Def_Index_Distal3_L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Medius_Proximal1_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Medius_Proximal1_L/Def_Medius_Intermediate2_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Medius_Proximal1_L/Def_Medius_Intermediate2_L/Def_Medius_Distal3_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Medius_Proximal1_L/Def_Medius_Intermediate2_L/Def_Medius_Distal3_L/Def_Medius_Distal3_L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Pinky_Proximal1_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Pinky_Proximal1_L/Def_Pinky_Intermediate2_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Pinky_Proximal1_L/Def_Pinky_Intermediate2_L/Def_Pinky_Distal3_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Pinky_Proximal1_L/Def_Pinky_Intermediate2_L/Def_Pinky_Distal3_L/Def_Pinky_Distal3_L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Ring_Proximal1_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Ring_Proximal1_L/Def_Ring_Intermediate2_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Ring_Proximal1_L/Def_Ring_Intermediate2_L/Def_Ring_Distal3_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Ring_Proximal1_L/Def_Ring_Intermediate2_L/Def_Ring_Distal3_L/Def_Ring_Distal3_L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Thumb_Proximal1_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Thumb_Proximal1_L/Def_Thumb_Intermediate2_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Thumb_Proximal1_L/Def_Thumb_Intermediate2_L/Def_Thumb_Distal3_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/def_upperArm.L/Def_forearm.L/def_hand.L/Def_Thumb_Proximal1_L/Def_Thumb_Intermediate2_L/Def_Thumb_Distal3_L/Def_Thumb_Distal3_L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/MCH-upper_arm.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/MCH-upper_arm.ik.L/MCH-forearm.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.L/MCH-upper_arm.ik.L/MCH-forearm.ik.L/MCH-forearm.ik.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Ctl_ArmBi_Helper.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Ctl_ArmBi_Helper.R/Ctl_ArmBi_Helper.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Index.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Index.R/Ctrl_Index.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Medius.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Medius.R/Ctrl_Medius.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Pinky.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Pinky.R/Ctrl_Pinky.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Ring.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Ring.R/Ctrl_Ring.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Thumb.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Ctrl_Thumb.R/Ctrl_Thumb.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Index_Proximal1_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Index_Proximal1_R/Def_Index_Intermediate2_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Index_Proximal1_R/Def_Index_Intermediate2_R/Def_Index_Distal3_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Index_Proximal1_R/Def_Index_Intermediate2_R/Def_Index_Distal3_R/Def_Index_Distal3_R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Medius_Proximal1_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Medius_Proximal1_R/Def_Medius_Intermediate2_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Medius_Proximal1_R/Def_Medius_Intermediate2_R/Def_Medius_Distal3_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Medius_Proximal1_R/Def_Medius_Intermediate2_R/Def_Medius_Distal3_R/Def_Medius_Distal3_R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Pinky_Proximal1_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Pinky_Proximal1_R/Def_Pinky_Intermediate2_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Pinky_Proximal1_R/Def_Pinky_Intermediate2_R/Def_Pinky_Distal3_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Pinky_Proximal1_R/Def_Pinky_Intermediate2_R/Def_Pinky_Distal3_R/Def_Pinky_Distal3_R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Ring_Proximal1_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Ring_Proximal1_R/Def_Ring_Intermediate2_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Ring_Proximal1_R/Def_Ring_Intermediate2_R/Def_Ring_Distal3_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Ring_Proximal1_R/Def_Ring_Intermediate2_R/Def_Ring_Distal3_R/Def_Ring_Distal3_R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Thumb_Proximal1_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Thumb_Proximal1_R/Def_Thumb_Intermediate2_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Thumb_Proximal1_R/Def_Thumb_Intermediate2_R/Def_Thumb_Distal3_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/def_upperArm.R/Def_forearm.R/def_hand.R/Def_Thumb_Proximal1_R/Def_Thumb_Intermediate2_R/Def_Thumb_Distal3_R/Def_Thumb_Distal3_R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/MCH-upper_arm.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/MCH-upper_arm.ik.R/MCH-forearm.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_Body_spine/def_Body_chest/def_shoulder.R/MCH-upper_arm.ik.R/MCH-forearm.ik.R/MCH-forearm.ik.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.L/Def_shin.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.L/Def_shin.L/def_foot.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.L/Def_shin.L/def_foot.L/def_toe.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.L/Def_shin.L/def_foot.L/def_toe.L/def_toe.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.R/Def_shin.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.R/Def_shin.R/def_foot.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.R/Def_shin.R/def_foot.R/def_toe.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/def_thigh.R/Def_shin.R/def_foot.R/def_toe.R/def_toe.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/MCH-thigh.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/MCH-thigh.ik.L/MCH-shin.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/MCH-thigh.ik.L/MCH-shin.ik.L/MCH-shin.ik.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/MCH-thigh.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/MCH-thigh.ik.R/MCH-shin.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/def_Body_hips/MCH-thigh.ik.R/MCH-shin.ik.R/MCH-shin.ik.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/elbow_target.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/elbow_target.ik.L/elbow_target.ik.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/elbow_target.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/elbow_target.ik.R/elbow_target.ik.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/Ctrl_ToePivotBallRot.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/Ctrl_ToePivotBallRot.L/Ctrl_HeelRoll.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/Ctrl_ToePivotBallRot.L/Ctrl_HeelRoll.L/Ctrl_ToePivot.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/Ctrl_ToePivotBallRot.L/Ctrl_HeelRoll.L/Ctrl_ToePivot.L/FrontRoll.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/Ctrl_ToePivotBallRot.L/Ctrl_HeelRoll.L/Ctrl_ToePivot.L/FrontRoll.L/MCH-foot.L.001
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/Ctrl_ToePivotBallRot.L/Ctrl_HeelRoll.L/Ctrl_ToePivot.L/FrontRoll.L/MCH-foot.L.001/Ctrl_Toe.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/Ctrl_ToePivotBallRot.L/Ctrl_HeelRoll.L/Ctrl_ToePivot.L/FrontRoll.L/MCH-foot.L.001/Ctrl_Toe.L/Ctrl_Toe.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/foot_roll.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.L/foot_roll.ik.L/foot_roll.ik.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/Ctrl_ToePivotBallRot.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/Ctrl_ToePivotBallRot.R/Ctrl_HeelRoll.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/Ctrl_ToePivotBallRot.R/Ctrl_HeelRoll.R/Ctrl_ToePivot.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/Ctrl_ToePivotBallRot.R/Ctrl_HeelRoll.R/Ctrl_ToePivot.R/FrontRoll.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/Ctrl_ToePivotBallRot.R/Ctrl_HeelRoll.R/Ctrl_ToePivot.R/FrontRoll.R/MCH-foot.R.001
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/Ctrl_ToePivotBallRot.R/Ctrl_HeelRoll.R/Ctrl_ToePivot.R/FrontRoll.R/MCH-foot.R.001/Ctrl_Toe.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/Ctrl_ToePivotBallRot.R/Ctrl_HeelRoll.R/Ctrl_ToePivot.R/FrontRoll.R/MCH-foot.R.001/Ctrl_Toe.R/Ctrl_Toe.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/foot_roll.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/foot.ik.R/foot_roll.ik.R/foot_roll.ik.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/footStick.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/footStick.L/footStick.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/footStick.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/footStick.R/footStick.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/hand.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/hand.ik.L/hand.ik.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/hand.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/hand.ik.R/hand.ik.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/hand.ik2.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/hand.ik2.L/hand.ik2.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/hand.ik2.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/hand.ik2.R/hand.ik2.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L/oneHanded_SliderPalmBase.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L/oneHanded_SliderPalmBase.L/oneHanded_SliderPalm.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L/oneHanded_SliderPalmBase.L/oneHanded_SliderPalm.L/oneHanded_SliderPalm.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L/oneHanded_SliderReach.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L/oneHanded_SliderReach.L/oneHanded_SliderHilt.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L/oneHanded_SliderReach.L/oneHanded_SliderHilt.L/SwordHandLoc_Rotator_Ctrl.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L/oneHanded_SliderReach.L/oneHanded_SliderHilt.L/SwordHandLoc_Rotator_Ctrl.L/hand.ikRotationDirectionBUffer.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.L/oneHanded_SliderReach.L/oneHanded_SliderHilt.L/SwordHandLoc_Rotator_Ctrl.L/hand.ikRotationDirectionBUffer.R/hand.ikRotationDirectionBUffer.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.R/oneHanded_SliderPalmBase.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.R/oneHanded_SliderPalmBase.R/oneHanded_SliderPalm.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandGrip_SliderBase.R/oneHanded_SliderPalmBase.R/oneHanded_SliderPalm.R/oneHanded_SliderPalm.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L/FrontHandLocation.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L/FrontHandLocation.L/FrontHandLocation2.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L/FrontHandLocation.L/FrontHandLocation2.L/FrontHandLocation2.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L/HandSwordLocation.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L/HandSwordLocation.L/HandSwordLocation.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L/RearhandLocation.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L/RearhandLocation.L/RearhandLocation2.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.L/RearhandLocation.L/RearhandLocation2.L/RearhandLocation2.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/FrontHandLocation.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/FrontHandLocation.R/FrontHandLocation2.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/FrontHandLocation.R/FrontHandLocation2.R/FrontHandLocation2.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/HandSwordLocation.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/HandSwordLocation.R/oneHanded_SliderReach.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/HandSwordLocation.R/oneHanded_SliderReach.R/oneHanded_SliderHilt.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/HandSwordLocation.R/oneHanded_SliderReach.R/oneHanded_SliderHilt.R/SwordHandLoc_Rotator_Ctrl.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/HandSwordLocation.R/oneHanded_SliderReach.R/oneHanded_SliderHilt.R/SwordHandLoc_Rotator_Ctrl.R/hand.ikRotationDirectionBUffer.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/HandSwordLocation.R/oneHanded_SliderReach.R/oneHanded_SliderHilt.R/SwordHandLoc_Rotator_Ctrl.R/hand.ikRotationDirectionBUffer.L/hand.ikRotationDirectionBUffer.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/RearhandLocation.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/RearhandLocation.R/RearhandLocation2.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/HandSwordM_Ctrl.R/RearhandLocation.R/RearhandLocation2.R/RearhandLocation2.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/head_hinge
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/head_hinge/Ctrl_Head_FK
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/head_hinge/Ctrl_Head_FK/Ctrl_Head_FK_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Head_IKLookAt
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Head_IKLookAt/Head_IKLookAt_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/IKNeck50%Follow
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/IKNeck50%Follow/IKNeck50%Follow_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/IKNeckWithDriver
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/IKNeckWithDriver/IKNeckWithDriver_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/knee_target.ik.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/knee_target.ik.L/knee_target.ik.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/knee_target.ik.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/knee_target.ik.R/knee_target.ik.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/oneHanded_SwordFollow.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/oneHanded_SwordFollow.L/SwordDef.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/oneHanded_SwordFollow.L/SwordDef.L/SwordDef.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/oneHanded_SwordFollow.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/oneHanded_SwordFollow.R/SwordDef.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/oneHanded_SwordFollow.R/SwordDef.R/SwordDef.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/Ctrl_COGRot_Follow_ForArms
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/Ctrl_COGRot_Follow_ForArms/Ctrl_COGRot_Follow_ForArms_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/Ctrl_COGRot_Follow_ForLegs
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/Ctrl_COGRot_Follow_ForLegs/Ctrl_COGRot_Follow_ForLegs_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/Ctrl_COGzMove
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/Ctrl_COGzMove/Ctrl_COGzMove_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L/shin.fk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L/shin.fk.L/foot.fk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L/shin.fk.L/foot.fk.L/IK_Contstriant_Locator_L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L/shin.fk.L/foot.fk.L/IK_Contstriant_Locator_L/IK_Contstriant_Locator_L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L/shin.fk.L/foot.fk.L/toe.fk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L/shin.fk.L/foot.fk.L/toe.fk.L/toe.fk.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L/shin.fk.L/MCH-foot.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L/thigh.fk.L/shin.fk.L/MCH-foot.L/MCH-foot.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L.001
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.L.001/FK_thigh_Locator.L.001_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R/shin.fk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R/shin.fk.R/foot.fk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R/shin.fk.R/foot.fk.R/IK_Contstriant_Locator_R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R/shin.fk.R/foot.fk.R/IK_Contstriant_Locator_R/IK_Contstriant_Locator_R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R/shin.fk.R/foot.fk.R/toe.fk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R/shin.fk.R/foot.fk.R/toe.fk.R/toe.fk.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R/shin.fk.R/MCH-foot.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R/thigh.fk.R/shin.fk.R/MCH-foot.R/MCH-foot.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R.001
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_thigh_Locator.R.001/FK_thigh_Locator.R.001_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.L/upper_arm.fk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.L/upper_arm.fk.L/forearm.fk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.L/upper_arm.fk.L/forearm.fk.L/hand.fk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.L/upper_arm.fk.L/forearm.fk.L/hand.fk.L/hand.fk.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.L/upper_arm.fk.L/forearm.fk.L/hand.fk2.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.L/upper_arm.fk.L/forearm.fk.L/hand.fk2.L/hand.FkLocatorForIk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.L/upper_arm.fk.L/forearm.fk.L/hand.fk2.L/hand.FkLocatorForIk.L/hand.FkLocatorForIk.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.R/upper_arm.fk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.R/upper_arm.fk.R/forearm.fk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.R/upper_arm.fk.R/forearm.fk.R/hand.fk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.R/upper_arm.fk.R/forearm.fk.R/hand.fk.R/hand.fk.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.R/upper_arm.fk.R/forearm.fk.R/hand.fk2.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.R/upper_arm.fk.R/forearm.fk.R/hand.fk2.R/hand.FkLocatorForIk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/root/FK_upperArm_Locator.R/upper_arm.fk.R/forearm.fk.R/hand.fk2.R/hand.FkLocatorForIk.R/hand.FkLocatorForIk.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_COGz.001
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_COGz.001/Ctrl_COGz.001_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_Hips
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_Hips/Flex_Hips
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_Hips/Flex_Hips/ShealthBase
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_Hips/Flex_Hips/ShealthBase/ShealthBase_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_Spine
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_Spine/Ctrl_Chest
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_Spine/Ctrl_Chest/Flex_Chest
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Roratez/Ctrl_COG_Rot/Ctrl_Spine/Ctrl_Chest/Flex_Chest/Flex_Chest_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShealthFollow
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShealthFollow/ShealthPivot
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShealthFollow/ShealthPivot/ShealthDef
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShealthFollow/ShealthPivot/ShealthDef/ShealthDef_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Shield_LocationAdjustment
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Shield_LocationAdjustment/Shield
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/Shield_LocationAdjustment/Shield/Shield_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShieldArmIk.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShieldArmIk.L/ShieldHand.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShieldArmIk.L/ShieldHand.L/ShieldHand.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShieldArmIk.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShieldArmIk.R/ShieldHand.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/ShieldArmIk.R/ShieldHand.R/ShieldHand.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/Reyelid
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/Reyelid/Reyelid_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SLbrow
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SLbrow/SLbrow_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SLeyelid
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SLeyelid/SLeyelid_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SLmouth
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SLmouth/SLmouth_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SRbrow
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SRbrow/SRbrow_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SRmouth
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SNeck1/SNeckHead/SRmouth/SRmouth_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SIndex_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SIndex_Proximal1.L/SIndex_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SIndex_Proximal1.L/SIndex_Intermediate2.L/SIndex_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SIndex_Proximal1.L/SIndex_Intermediate2.L/SIndex_Distal3.L/SIndex_Distal3.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SMedius_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SMedius_Proximal1.L/SMedius_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SMedius_Proximal1.L/SMedius_Intermediate2.L/SMedius_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SMedius_Proximal1.L/SMedius_Intermediate2.L/SMedius_Distal3.L/SMedius_Distal3.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SPinky_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SPinky_Proximal1.L/SPinky_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SPinky_Proximal1.L/SPinky_Intermediate2.L/SPinky_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SPinky_Proximal1.L/SPinky_Intermediate2.L/SPinky_Distal3.L/SPinky_Distal3.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SRing_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SRing_Proximal1.L/SRing_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SRing_Proximal1.L/SRing_Intermediate2.L/SRing_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SRing_Proximal1.L/SRing_Intermediate2.L/SRing_Distal3.L/SRing_Distal3.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SThumb_Proximal1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SThumb_Proximal1.L/SThumb_Intermediate2.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SThumb_Proximal1.L/SThumb_Intermediate2.L/SThumb_Distal3.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.L/SUpperArm.L/ArmUpper2.L/SLowerArm.L/SArmForearm2.L/SHand.L/SThumb_Proximal1.L/SThumb_Intermediate2.L/SThumb_Distal3.L/SThumb_Distal3.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SIndex_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SIndex_Proximal1.R/SIndex_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SIndex_Proximal1.R/SIndex_Intermediate2.R/SIndex_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SIndex_Proximal1.R/SIndex_Intermediate2.R/SIndex_Distal3.R/SIndex_Distal3.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SMedius_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SMedius_Proximal1.R/SMedius_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SMedius_Proximal1.R/SMedius_Intermediate2.R/SMedius_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SMedius_Proximal1.R/SMedius_Intermediate2.R/SMedius_Distal3.R/SMedius_Distal3.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SPinky_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SPinky_Proximal1.R/SPinky_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SPinky_Proximal1.R/SPinky_Intermediate2.R/SPinky_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SPinky_Proximal1.R/SPinky_Intermediate2.R/SPinky_Distal3.R/SPinky_Distal3.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SRing_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SRing_Proximal1.R/SRing_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SRing_Proximal1.R/SRing_Intermediate2.R/SRing_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SRing_Proximal1.R/SRing_Intermediate2.R/SRing_Distal3.R/SRing_Distal3.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SThumb_Proximal1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SThumb_Proximal1.R/SThumb_Intermediate2.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SThumb_Proximal1.R/SThumb_Intermediate2.R/SThumb_Distal3.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SSpine/SChest/SShoulder.R/SUpperArm.R/SArmUpper2.R/SLowerArm.R/SArmForearm2.R/SHand.R/SThumb_Proximal1.R/SThumb_Intermediate2.R/SThumb_Distal3.R/SThumb_Distal3.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L/SLowerLeg.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L/SLowerLeg.L/SFoot.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L/SLowerLeg.L/SFoot.L/SLegToe1.L
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.L/SLowerLeg.L/SFoot.L/SLegToe1.L/SLegToe1.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R/SLowerLeg.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R/SLowerLeg.R/SFoot.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R/SLowerLeg.R/SFoot.R/SLegToe1.R
+        weight: 1
+      - path: Arm_Soldier_Ctlsz/SHips/SUpperLeg.R/SLowerLeg.R/SFoot.R/SLegToe1.R/SLegToe1.R_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SwordStickINGround.L
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SwordStickINGround.L/SwordStickINGround.L_end
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SwordStickINGround.R
+        weight: 0
+      - path: Arm_Soldier_Ctlsz/SwordStickINGround.R/SwordStickINGround.R_end
+        weight: 0
+      - path: Soldier2.001
+        weight: 0
+      - path: Soldierz_clean
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: SHips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SUpperLeg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SUpperLeg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLowerLeg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLowerLeg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SFoot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SFoot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SSpine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SChest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SNeck1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SNeckHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SShoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SUpperArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SUpperArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLowerArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLowerArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SHand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SHand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLegToe1.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SLegToe1.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Proximal1.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Intermediate2.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Distal3.L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Proximal1.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Intermediate2.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Distal3.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Proximal1.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Intermediate2.L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Distal3.L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Proximal1.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Intermediate2.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Distal3.L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Proximal1.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Intermediate2.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Distal3.L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Proximal1.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Intermediate2.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SThumb_Distal3.R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Proximal1.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Intermediate2.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SIndex_Distal3.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Proximal1.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Intermediate2.R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SMedius_Distal3.R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Proximal1.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Intermediate2.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SRing_Distal3.R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Proximal1.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Intermediate2.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SPinky_Distal3.R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: SShoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Dodge_L(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Soldier_Ctlsz
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: SHips
+      parentName: 
+      position: {x: 1.4901161e-10, y: -0.00024155057, z: 0.01053339}
+      rotation: {x: 0.7071095, y: -0.000000087463256, z: -0.000000077172864, w: 0.707104}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+    - name: SSpine
+      parentName: 
+      position: {x: -1.3969838e-11, y: 0.0022439163, z: -1.8626451e-11}
+      rotation: {x: 0.000000037252903, y: -0.00000006984919, z: -0.0000000036374355,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+    - name: SChest
+      parentName: 
+      position: {x: -1.0244548e-10, y: 0.0022439184, z: -5.3551046e-11}
+      rotation: {x: 0.00010403689, y: 0.00000020955073, z: 0.00000002835281, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: SNeck1
+      parentName: 
+      position: {x: 7.4505804e-11, y: 0.0028598781, z: -2.9802322e-10}
+      rotation: {x: -0.00000034784173, y: 0.0000003492742, z: 0.00000013089192, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: SNeckHead
+      parentName: 
+      position: {x: 5.587935e-10, y: 0.0007988608, z: 6.3329936e-10}
+      rotation: {x: -0.0001076664, y: -0.000000023285894, z: -0.000000026918531, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: SShoulder.L
+      parentName: 
+      position: {x: -0.0001944005, y: 0.0019808242, z: -0.0000000018626451}
+      rotation: {x: 0.587739, y: -0.46894568, z: -0.46894634, w: -0.46340284}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: SUpperArm.L
+      parentName: 
+      position: {x: -1.3038516e-10, y: 0.001715045, z: 8.457573e-10}
+      rotation: {x: 0.04448314, y: 0.018747121, z: 0.027274102, w: 0.99846184}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999964}
+    - name: SLowerArm.L
+      parentName: 
+      position: {x: 0.000000007372364, y: 0.0029578598, z: -0.00000004551839}
+      rotation: {x: 0.004534286, y: 0.0014672604, z: 0.024919799, w: 0.99967813}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: SHand.L
+      parentName: 
+      position: {x: 0.00000000782115, y: 0.0029595592, z: -0.0000000531727}
+      rotation: {x: -0.021126715, y: 0.114884906, z: 0.10579329, w: -0.9875034}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999999}
+    - name: SIndex_Proximal1.L
+      parentName: 
+      position: {x: -0.00044389835, y: 0.0010000499, z: -0.0000019942597}
+      rotation: {x: 0.01809725, y: -0.7034983, z: 0.076681525, w: 0.70631623}
+      scale: {x: 1, y: 1.0000004, z: 0.9999997}
+    - name: SIndex_Intermediate2.L
+      parentName: 
+      position: {x: 0.0000000024214386, y: 0.0005752587, z: -7.45058e-10}
+      rotation: {x: -0.00006881073, y: 0.017869232, z: 0.033137593, w: 0.99929106}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: SIndex_Distal3.L
+      parentName: 
+      position: {x: -4.4703483e-10, y: 0.0002751969, z: 1.4901161e-10}
+      rotation: {x: -0.0009707938, y: -0.008246143, z: 0.08424711, w: 0.99641037}
+      scale: {x: 0.9999996, y: 0.99999934, z: 0.99999994}
+    - name: SMedius_Proximal1.L
+      parentName: 
+      position: {x: -0.000105429885, y: 0.0010742694, z: 0.00006891305}
+      rotation: {x: -0.00090799737, y: -0.6472177, z: 0.057196796, w: 0.76015586}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.99999994}
+    - name: SMedius_Intermediate2.L
+      parentName: 
+      position: {x: 0.0000000012293457, y: 0.00067459524, z: 0}
+      rotation: {x: -0.006772425, y: 0.035910614, z: 0.035198633, w: 0.99871206}
+      scale: {x: 0.9999997, y: 1, z: 0.99999976}
+    - name: SMedius_Distal3.L
+      parentName: 
+      position: {x: 8.9406965e-10, y: 0.00030468742, z: 0.0000000020861626}
+      rotation: {x: 0.0035697068, y: -0.013659505, z: -0.016523138, w: 0.99976385}
+      scale: {x: 1.0000004, y: 0.9999997, z: 1.0000001}
+    - name: SPinky_Proximal1.L
+      parentName: 
+      position: {x: 0.00046590803, y: 0.0010220733, z: 0.000011713896}
+      rotation: {x: -0.0033040599, y: -0.57653207, z: 0.03612769, w: 0.81626874}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: SPinky_Intermediate2.L
+      parentName: 
+      position: {x: -9.685754e-10, y: 0.00038203283, z: 0.0000000010151416}
+      rotation: {x: -0.0054470357, y: 0.052826088, z: 0.038232822, w: 0.99785674}
+      scale: {x: 1, y: 0.9999995, z: 1}
+    - name: SPinky_Distal3.L
+      parentName: 
+      position: {x: 6.705522e-10, y: 0.00020147071, z: 4.4703483e-10}
+      rotation: {x: -0.027289487, y: -0.0026531813, z: 0.14036228, w: 0.9897206}
+      scale: {x: 1, y: 1.0000011, z: 0.9999998}
+    - name: SRing_Proximal1.L
+      parentName: 
+      position: {x: 0.00020003854, y: 0.0011159128, z: 0.00006382717}
+      rotation: {x: -0.003925902, y: -0.61515325, z: 0.047922913, w: 0.78694}
+      scale: {x: 1, y: 0.9999996, z: 0.99999976}
+    - name: SRing_Intermediate2.L
+      parentName: 
+      position: {x: 7.45058e-10, y: 0.0005395365, z: 2.9802322e-10}
+      rotation: {x: -0.008163981, y: 0.038700327, z: 0.040053476, w: 0.99841446}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999964}
+    - name: SRing_Distal3.L
+      parentName: 
+      position: {x: 2.9802322e-10, y: 0.0003013481, z: 7.45058e-10}
+      rotation: {x: -0.018626478, y: -0.023997137, z: 0.084954426, w: 0.9959217}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1.0000002}
+    - name: SThumb_Proximal1.L
+      parentName: 
+      position: {x: -0.0003630091, y: 0.000093815695, z: -0.00016246535}
+      rotation: {x: 0.10072036, y: -0.18958521, z: -0.391818, w: -0.8946461}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.99999994}
+    - name: SThumb_Intermediate2.L
+      parentName: 
+      position: {x: -9.872019e-10, y: 0.00042504078, z: 0.0000000017136335}
+      rotation: {x: 0.010361818, y: -0.033259816, z: -0.036619775, w: 0.99872196}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: SThumb_Distal3.L
+      parentName: 
+      position: {x: 1.4901161e-10, y: 0.00047935752, z: -8.1956386e-10}
+      rotation: {x: 0.050195552, y: 0.061227344, z: -0.10886538, w: 0.9908986}
+      scale: {x: 0.99999976, y: 0.99999964, z: 1.0000002}
+    - name: SShoulder.R
+      parentName: 
+      position: {x: 0.00019440083, y: 0.0019808225, z: -0.0000000016391277}
+      rotation: {x: 0.58772296, y: 0.46894836, z: 0.46894774, w: -0.46341905}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: SUpperArm.R
+      parentName: 
+      position: {x: 2.9802322e-10, y: 0.0017150446, z: -0.0000000023143365}
+      rotation: {x: 0.044465046, y: -0.018762795, z: -0.027270671, w: 0.9984624}
+      scale: {x: 1, y: 0.9999999, z: 0.9999997}
+    - name: SLowerArm.R
+      parentName: 
+      position: {x: -0.000000010591066, y: 0.0029578651, z: -0.000000044557964}
+      rotation: {x: 0.004033812, y: -0.0013830788, z: -0.027998786, w: 0.9995989}
+      scale: {x: 0.99999976, y: 1.0000005, z: 0.9999999}
+    - name: SHand.R
+      parentName: 
+      position: {x: -0.00000007599223, y: 0.0029596651, z: -0.00000030271804}
+      rotation: {x: 0.008000678, y: -0.12977591, z: -0.12187993, w: -0.9839916}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: SIndex_Proximal1.R
+      parentName: 
+      position: {x: 0.00044389968, y: 0.0010000505, z: -0.0000019952631}
+      rotation: {x: 0.018098209, y: 0.70349836, z: -0.07667895, w: 0.7063165}
+      scale: {x: 0.9999997, y: 0.99999946, z: 0.9999993}
+    - name: SIndex_Intermediate2.R
+      parentName: 
+      position: {x: 1.5832484e-10, y: 0.0005752596, z: 4.842877e-10}
+      rotation: {x: 0.00006765033, y: 0.017869426, z: 0.03314303, w: -0.99929094}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999998}
+    - name: SIndex_Distal3.R
+      parentName: 
+      position: {x: -0.0000000021979212, y: 0.000275196, z: -2.5844202e-10}
+      rotation: {x: -0.00097074534, y: 0.008246145, z: -0.08425001, w: 0.99641013}
+      scale: {x: 0.9999999, y: 0.9999995, z: 0.9999997}
+    - name: SMedius_Proximal1.R
+      parentName: 
+      position: {x: 0.000105429404, y: 0.0010742705, z: 0.000068912566}
+      rotation: {x: 0.0009087632, y: -0.647217, z: 0.057193827, w: -0.76015675}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000002}
+    - name: SMedius_Intermediate2.R
+      parentName: 
+      position: {x: -3.352761e-10, y: 0.0006745953, z: 0.000000003837049}
+      rotation: {x: -0.0067639453, y: -0.035910208, z: -0.03519409, w: 0.99871224}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: SMedius_Distal3.R
+      parentName: 
+      position: {x: -2.9802322e-10, y: 0.00030468687, z: -0.0000000019371509}
+      rotation: {x: 0.0035702065, y: 0.013659418, z: 0.016523136, w: 0.99976385}
+      scale: {x: 1, y: 1.0000001, z: 0.9999996}
+    - name: SPinky_Proximal1.R
+      parentName: 
+      position: {x: -0.00046590803, y: 0.0010220743, z: 0.000011714871}
+      rotation: {x: 0.0033016435, y: -0.576533, z: 0.03612791, w: -0.8162681}
+      scale: {x: 0.9999995, y: 1.0000001, z: 0.9999992}
+    - name: SPinky_Intermediate2.R
+      parentName: 
+      position: {x: -8.9406965e-10, y: 0.0003820341, z: 6.705522e-10}
+      rotation: {x: -0.005447336, y: -0.0528255, z: -0.03824126, w: 0.99785644}
+      scale: {x: 0.99999976, y: 0.9999993, z: 0.99999964}
+    - name: SPinky_Distal3.R
+      parentName: 
+      position: {x: -0.0000000020116566, y: 0.00020147282, z: -7.45058e-10}
+      rotation: {x: -0.0272891, y: 0.00265339, z: -0.14036225, w: 0.9897206}
+      scale: {x: 1, y: 1.0000006, z: 1.0000001}
+    - name: SRing_Proximal1.R
+      parentName: 
+      position: {x: -0.00020004019, y: 0.0011159135, z: 0.000063828535}
+      rotation: {x: 0.0039245845, y: -0.61515385, z: 0.0479225, w: -0.7869395}
+      scale: {x: 0.9999996, y: 0.99999976, z: 1}
+    - name: SRing_Intermediate2.R
+      parentName: 
+      position: {x: -0.000000001117587, y: 0.00053953665, z: -6.705522e-10}
+      rotation: {x: -0.008163108, y: -0.0387005, z: -0.040050272, w: 0.9984146}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000002}
+    - name: SRing_Distal3.R
+      parentName: 
+      position: {x: 1.4901161e-10, y: 0.00030134778, z: -4.842877e-10}
+      rotation: {x: -0.018626584, y: 0.023997206, z: -0.084954806, w: 0.9959216}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.9999999}
+    - name: SThumb_Proximal1.R
+      parentName: 
+      position: {x: 0.00036301024, y: 0.00009381771, z: -0.00016246403}
+      rotation: {x: 0.10071874, y: 0.18958625, z: 0.39181855, w: -0.89464575}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000004}
+    - name: SThumb_Intermediate2.R
+      parentName: 
+      position: {x: 2.2351741e-10, y: 0.0004250404, z: 0.0000000010430813}
+      rotation: {x: 0.010361433, y: 0.033251926, z: 0.036619037, w: 0.9987222}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: SThumb_Distal3.R
+      parentName: 
+      position: {x: -2.6077032e-10, y: 0.00047935708, z: -5.9604643e-10}
+      rotation: {x: 0.032205965, y: 0.024362084, z: 0.11547948, w: 0.9924887}
+      scale: {x: 0.9999995, y: 0.9999995, z: 0.99999964}
+    - name: SUpperLeg.L
+      parentName: 
+      position: {x: -0.00095567247, y: -0.00038085724, z: -0.000035383902}
+      rotation: {x: 0.9980683, y: -0.061969735, z: -0.002202706, w: -0.003820598}
+      scale: {x: 1.0000064, y: 0.9999997, z: 0.9999999}
+    - name: SLowerLeg.L
+      parentName: 
+      position: {x: -1.3038516e-10, y: 0.0046074423, z: -3.7252902e-11}
+      rotation: {x: 0.10044131, y: 0.030138526, z: -0.04340403, w: 0.9935388}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999998}
+    - name: SFoot.L
+      parentName: 
+      position: {x: 9.313225e-11, y: 0.004144762, z: -2.0256266e-10}
+      rotation: {x: -0.4813209, y: 0.017940119, z: -0.02778268, w: 0.87592036}
+      scale: {x: 0.9999991, y: 1, z: 0.9999997}
+    - name: SLegToe1.L
+      parentName: 
+      position: {x: 1.6065314e-10, y: 0.0017681157, z: 2.2351741e-10}
+      rotation: {x: 0.03639907, y: 0.92629784, z: -0.37438938, w: 0.021910353}
+      scale: {x: 0.999999, y: 1.0000005, z: 1.0000004}
+    - name: SUpperLeg.R
+      parentName: 
+      position: {x: 0.00095567224, y: -0.00038085744, z: -0.000035384724}
+      rotation: {x: 0.9980684, y: 0.06196851, z: 0.0022016782, w: -0.0038208147}
+      scale: {x: 0.999985, y: 0.9999995, z: 0.9999994}
+    - name: SLowerLeg.R
+      parentName: 
+      position: {x: 0.0000000012665987, y: 0.004607442, z: 0.0000000071153043}
+      rotation: {x: 0.10044072, y: -0.030139089, z: 0.043405425, w: 0.9935388}
+      scale: {x: 1.0000004, y: 1, z: 1.0000006}
+    - name: SFoot.R
+      parentName: 
+      position: {x: 1.8626451e-11, y: 0.0041447654, z: 7.4505804e-11}
+      rotation: {x: -0.48132056, y: -0.017941155, z: 0.027783183, w: 0.87592053}
+      scale: {x: 1.000001, y: 0.9999998, z: 0.9999994}
+    - name: SLegToe1.R
+      parentName: 
+      position: {x: -2.4912877e-10, y: 0.0017681157, z: 1.4901161e-10}
+      rotation: {x: -0.036753282, y: 0.92631805, z: -0.37435433, w: -0.021044154}
+      scale: {x: 1.0000012, y: 0.99999833, z: 1.0000001}
+    - name: Soldierz_clean
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: aac2f366785ac904ba635e0137fbc818,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
