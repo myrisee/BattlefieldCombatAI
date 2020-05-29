@@ -307,7 +307,6 @@ public class GunScript : MonoBehaviour {
 		
 	void FireOneShot()
 	{
-			Debug.Log("Fire");
 		//Look At Target
 		if(targetTransform && !myAIBaseScript.inParkour)
 			{	

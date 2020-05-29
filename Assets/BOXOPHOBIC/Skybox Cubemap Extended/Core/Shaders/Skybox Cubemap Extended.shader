@@ -154,7 +154,7 @@ Shader "Skybox/Cubemap Extended"
 				half4 Data1189 = texCUBE( _Tex, vertexToFrag774 );
 				half3 localDecodeHDR1189 = DecodeHDR1189( Data1189 );
 				half4 CUBEMAP222 = ( float4( localDecodeHDR1189 , 0.0 ) * unity_ColorSpaceDouble * _TintColor * _Exposure );
-				float lerpResult678 = lerp( saturate( pow( (0.0 + (abs( i.ase_texcoord1.xyz.y ) - 0.0) * (1.0 - 0.0) / (_FogHeight - 0.0)) , ( 1.0 - _FogSmoothness ) ) ) , 0.0 , _FogFill);
+				float lerpResult678 = lerp( saturate( pow( (0 + (abs( i.ase_texcoord1.xyz.y ) - 0.0) * (1.0 - 0.0) / (_FogHeight - 0.0)) , ( 3.0 - _FogSmoothness ) ) ) , 0.0 , _FogFill);
 				float lerpResult1205 = lerp( 1.0 , lerpResult678 , _FogIntensity);
 				half FOG_MASK359 = lerpResult1205;
 				float4 lerpResult317 = lerp( unity_FogColor , CUBEMAP222 , FOG_MASK359);

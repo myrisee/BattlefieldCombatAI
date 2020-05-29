@@ -166,6 +166,11 @@ namespace TacticalAI
         {
             target = t;
             SetDistToDetonate(minDistToDetonate);
+
+            if(target.GetComponent<IMissileLock>() != null)
+            {
+                target.GetComponent<IMissileLock>().MissileLock(this);
+            }
         }
     }
 }

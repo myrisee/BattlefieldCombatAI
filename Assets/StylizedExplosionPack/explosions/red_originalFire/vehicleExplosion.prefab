@@ -33501,7 +33501,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4000010921236120
 Transform:
   m_ObjectHideFlags: 0
@@ -76119,6 +76119,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ColorModule.gradient.maxGradient.m_NumAlphaKeys
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080344451399714091, guid: 82a7af0b6a20744c38af521efc471d0d,
+        type: 3}
+      propertyPath: ExternalForcesModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a7af0b6a20744c38af521efc471d0d, type: 3}
